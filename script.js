@@ -290,18 +290,18 @@ window.__openLightbox   = openLightbox;
   if (!track) return;
 
   const photos = [
-    '/photos/barranquismo-guara/IMG_6022.JPG',
-    '/photos/barranquismo-guara/IMG_6025.JPG',
-    '/photos/barranquismo/IMG_3984.JPG',
-    '/photos/escalada/IMG_5334.JPG',
-    '/photos/escalada/IMG_4564.JPG',
-    '/photos/grupos/IMG_6027.JPG',
-    '/photos/viaferrata/IMG_9891.JPG',
-    '/photos/barranquismo-guara/IMG_3847.JPG',
-    '/photos/escalada/IMG_9056.JPG',
-    '/photos/senderismo/IMG_4098.JPG',
-    '/photos/raquetas/IMG_1444.JPG',
-    '/photos/raquetas/IMG_1463.JPG',
+    'photos/barranquismo-guara/IMG_6022.JPG',
+    'photos/barranquismo-guara/IMG_6025.JPG',
+    'photos/barranquismo/IMG_3984.JPG',
+    'photos/escalada/IMG_5334.JPG',
+    'photos/escalada/IMG_4564.JPG',
+    'photos/grupos/IMG_6027.JPG',
+    'photos/viaferrata/IMG_9891.JPG',
+    'photos/barranquismo-guara/IMG_3847.JPG',
+    'photos/escalada/IMG_9056.JPG',
+    'photos/senderismo/IMG_4098.JPG',
+    'photos/raquetas/IMG_1444.JPG',
+    'photos/raquetas/IMG_1463.JPG',
   ];
 
   const alts = [

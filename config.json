@@ -12,7 +12,7 @@
   },
   "guide": {
     "name": "Nano (V. Lopez)",
-    "photo": "/photos/guide-profile.JPG",
+    "photo": "photos/guide-profile.JPG",
     "bio1": "Llevo más de 10 años explorando barrancos, paredes de roca y senderos de montaña en los Pirineos, la Sierra de Guara y los Picos de Europa. El barranquismo, la escalada y el trekking no son solo mi trabajo — son mi forma de entender la naturaleza y de compartirla con quien se acerca a ella por primera vez.",
     "bio2": "Guía certificado especializado en barranquismo técnico y deportivo, escalada en roca y senderismo de montaña. He guiado cientos de descensos en los barrancos más espectaculares de la Sierra de Guara — incluyendo el Mascún, Añisclo y Gorgol — y he recorrido los grandes senderos del Pirineo y los Picos de Europa con grupos de todos los niveles.",
     "certifications": ["Técnico Deportivo Barranquismo", "Escalada RFEM", "Guía de Montaña", "Primeros Auxilios", "Rescate en Montaña", "Meteorología"]
@@ -37,17 +37,17 @@
       "price": "75",
       "featured": false,
       "photos": [
-        "/photos/senderismo/IMG_4098.JPG",
-        "/photos/senderismo/IMG_8332.JPG",
-        "/photos/senderismo/IMG_4058.mov",
-        "/photos/senderismo/IMG_3827.mov"
+        "photos/senderismo/IMG_4098.JPG",
+        "photos/senderismo/IMG_8332.JPG",
+        "photos/senderismo/IMG_4058.mov",
+        "photos/senderismo/IMG_3827.mov"
       ]
     },
     {
       "id": "barranquismo",
       "title": "Barranquismo",
       "description": "Descenso de barrancos con rápeles, saltos, toboganes y pozas de agua cristalina. La adrenalina del agua en estado puro en los mejores barrancos del Pirineo.",
-      "image": "/photos/barranquismo/IMG_3984.JPG",
+      "image": "photos/barranquismo/IMG_3984.JPG",
       "badge": "Más popular",
       "badgeColor": "gold",
       "duration": "1 día",
@@ -56,10 +56,10 @@
       "price": "90",
       "featured": true,
       "photos": [
-        "/photos/barranquismo/IMG_1868.JPG",
-        "/photos/barranquismo/IMG_3791.JPG",
-        "/photos/barranquismo/IMG_3984.JPG",
-        "/photos/barranquismo/IMG_3672.mov"
+        "photos/barranquismo/IMG_1868.JPG",
+        "photos/barranquismo/IMG_3791.JPG",
+        "photos/barranquismo/IMG_3984.JPG",
+        "photos/barranquismo/IMG_3672.mov"
       ]
     },
     {
@@ -75,16 +75,16 @@
       "price": "120",
       "featured": false,
       "photos": [
-        "/photos/escalada/IMG_4564.JPG",
-        "/photos/escalada/IMG_5334.JPG",
-        "/photos/escalada/IMG_9056.JPG"
+        "photos/escalada/IMG_4564.JPG",
+        "photos/escalada/IMG_5334.JPG",
+        "photos/escalada/IMG_9056.JPG"
       ]
     },
     {
       "id": "viaferrata",
       "title": "Vía Ferrata",
       "description": "Sube paredes verticales equipadas con cables de acero, escalones y pasamanos. La emoción de la escalada con la seguridad de estar siempre asegurado. Sin experiencia previa necesaria.",
-      "image": "/photos/viaferrata/IMG_2587.JPG",
+      "image": "photos/viaferrata/IMG_2587.JPG",
       "badge": "Todos los niveles",
       "badgeColor": "default",
       "duration": "Medio día o día completo",
@@ -93,16 +93,16 @@
       "price": "65",
       "featured": false,
       "photos": [
-        "/photos/viaferrata/IMG_2587.JPG",
-        "/photos/viaferrata/IMG_2617.JPG",
-        "/photos/viaferrata/IMG_9891.JPG"
+        "photos/viaferrata/IMG_2587.JPG",
+        "photos/viaferrata/IMG_2617.JPG",
+        "photos/viaferrata/IMG_9891.JPG"
       ]
     },
     {
       "id": "raquetas",
       "title": "Raquetas & Esquí de Travesía",
       "description": "El silencio de la montaña nevada. Rutas con raquetas o esquí de montaña para vivir el invierno pirenaico en su máxima expresión.",
-      "image": "/photos/raquetas/IMG_1444.JPG",
+      "image": "photos/raquetas/IMG_1444.JPG",
       "badge": "Invierno",
       "badgeColor": "default",
       "duration": "1–5 días",
@@ -111,16 +111,16 @@
       "price": "150",
       "featured": false,
       "photos": [
-        "/photos/raquetas/IMG_1444.JPG",
-        "/photos/raquetas/IMG_1463.JPG",
-        "/photos/raquetas/IMG_1524.JPG"
+        "photos/raquetas/IMG_1444.JPG",
+        "photos/raquetas/IMG_1463.JPG",
+        "photos/raquetas/IMG_1524.JPG"
       ]
     },
     {
       "id": "barranquismo-guara",
       "title": "Semana de Barranquismo",
       "description": "Semana completa en la Sierra de Guara y el Pirineo aragonés. Descenso del mítico barranco del Mascún, Añisclo, Gorgol y más. Alojamiento, guía y equipo incluidos.",
-      "image": "/photos/barranquismo-guara/IMG_6025.JPG",
+      "image": "photos/barranquismo-guara/IMG_6025.JPG",
       "badge": "Sierra de Guara",
       "badgeColor": "purple",
       "duration": "5–7 días",
@@ -129,17 +129,17 @@
       "price": null,
       "featured": false,
       "photos": [
-        "/photos/barranquismo-guara/IMG_3847.JPG",
-        "/photos/barranquismo-guara/IMG_6022.JPG",
-        "/photos/barranquismo-guara/IMG_6025.JPG",
-        "/photos/barranquismo-guara/IMG_6026.WEBP"
+        "photos/barranquismo-guara/IMG_3847.JPG",
+        "photos/barranquismo-guara/IMG_6022.JPG",
+        "photos/barranquismo-guara/IMG_6025.JPG",
+        "photos/barranquismo-guara/IMG_6026.WEBP"
       ]
     },
     {
       "id": "multiaventura",
       "title": "Semana Multiaventura",
       "description": "Cinco días, cinco aventuras distintas. Un día descendemos un barranco con rápeles y pozas. Otro escalamos una pared de roca. Hacemos trekking por senderos de altura, bajamos un río en rafting y completamos una vía ferrata. Tú eliges la combinación — yo organizo todo.",
-      "image": "/collage-multiaventura.jpg",
+      "image": "collage-multiaventura.jpg",
       "badge": "5 días · 5 actividades",
       "badgeColor": "default",
       "duration": "5 días",
@@ -148,12 +148,12 @@
       "price": null,
       "featured": false,
       "photos": [
-        "/photos/multiaventura/IMG_2587.JPG",
-        "/photos/multiaventura/IMG_4098.JPG",
-        "/photos/multiaventura/IMG_6020.JPG",
-        "/photos/multiaventura/IMG_6022.JPG",
-        "/photos/multiaventura/IMG_6023.JPG",
-        "/photos/multiaventura/IMG_6024.JPG"
+        "photos/multiaventura/IMG_2587.JPG",
+        "photos/multiaventura/IMG_4098.JPG",
+        "photos/multiaventura/IMG_6020.JPG",
+        "photos/multiaventura/IMG_6022.JPG",
+        "photos/multiaventura/IMG_6023.JPG",
+        "photos/multiaventura/IMG_6024.JPG"
       ]
     },
     {
@@ -169,9 +169,9 @@
       "price": null,
       "featured": false,
       "photos": [
-        "/photos/grupos/IMG_6027.JPG",
-        "/photos/grupos/IMG_6028.JPG",
-        "/photos/grupos/IMG_6029.JPG"
+        "photos/grupos/IMG_6027.JPG",
+        "photos/grupos/IMG_6028.JPG",
+        "photos/grupos/IMG_6029.JPG"
       ]
     }
   ],
