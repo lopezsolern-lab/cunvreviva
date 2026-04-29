@@ -62,9 +62,9 @@ window.TRANSLATIONS = {
       { id:'grupos',          title:'Grupos & Empresas',         badge:'Grupos',       description:'Team building, despedidas o escapadas con amigos. Experiencias multiaventura personalizadas para grupos de hasta 12 personas en entornos naturales únicos.', duration:'A medida', difficulty:'Adaptable', season:'Todo el año' }
     ],
     testimonials: [
-      { text:'El descenso del Mascún fue absolutamente brutal. Rápeles, pozas y toboganes naturales alucinantes. Alejandro conoce cada rincón del barranco y hace que todo sea seguro y divertido a la vez.', author:'Carlos M.', context:'Barranco del Mascún, Sierra de Guara' },
-      { text:'Primera vez escalando en roca y Alejandro lo hizo fácil y emocionante. En pocas horas ya estaba en la pared sin miedo. El entorno del Pirineo es espectacular. Repito seguro.', author:'Marta L.', context:'Escalada en el Pirineo aragonés' },
-      { text:'Hicimos la ruta circular de los Picos de Europa con Alejandro. Tres días inolvidables, buena compañía y vistas que quitan el aliento. Un guía que sabe lo que hace y transmite pasión por la montaña.', author:'Javier S.', context:'Trekking Picos de Europa' },
+      { text:'El descenso del Mascún fue absolutamente brutal. Rápeles, pozas y toboganes naturales alucinantes. Nano conoce cada rincón del barranco y hace que todo sea seguro y divertido a la vez.', author:'Carlos M.', context:'Barranco del Mascún, Sierra de Guara' },
+      { text:'Primera vez escalando en roca y Nano lo hizo fácil y emocionante. En pocas horas ya estaba en la pared sin miedo. El entorno del Pirineo es espectacular. Repito seguro.', author:'Marta L.', context:'Escalada en el Pirineo aragonés' },
+      { text:'Hicimos la ruta circular de los Picos de Europa con Nano. Tres días inolvidables, buena compañía y vistas que quitan el aliento. Un guía que sabe lo que hace y transmite pasión por la montaña.', author:'Javier S.', context:'Trekking Picos de Europa' },
       { text:'La semana multiaventura superó todas mis expectativas. Barranquismo, escalada y trekking en cinco días increíbles. El catálogo de actividades que nos mandaron antes era perfecto para elegir.', author:'Lucía P.', context:'Semana Multiaventura, Pirineos' }
     ],
     faq: [
@@ -139,9 +139,9 @@ window.TRANSLATIONS = {
       { id:'grupos',          title:'Groups & Corporate',         badge:'Groups',        description:'Team building, celebrations or friends\' getaways. Personalised multi-adventure experiences for groups of up to 12 people in unique natural settings.', duration:'Custom', difficulty:'Adaptable', season:'Year-round' }
     ],
     testimonials: [
-      { text:'The Mascún descent was absolutely incredible. Abseils, pools and natural slides — mind-blowing. Alejandro knows every corner of the canyon and makes everything safe and fun at the same time.', author:'Carlos M.', context:'Mascún Canyon, Sierra de Guara' },
-      { text:'First time rock climbing and Alejandro made it easy and exciting. Within hours I was on the wall without fear. The Pyrenees setting is spectacular. Definitely coming back.', author:'Marta L.', context:'Rock climbing, Aragonese Pyrenees' },
-      { text:'We did the circular route through the Picos de Europa with Alejandro. Three unforgettable days, great company and breathtaking views. A guide who knows his craft and truly loves the mountains.', author:'Javier S.', context:'Trekking Picos de Europa' },
+      { text:'The Mascún descent was absolutely incredible. Abseils, pools and natural slides — mind-blowing. Nano knows every corner of the canyon and makes everything safe and fun at the same time.', author:'Carlos M.', context:'Mascún Canyon, Sierra de Guara' },
+      { text:'First time rock climbing and Nano made it easy and exciting. Within hours I was on the wall without fear. The Pyrenees setting is spectacular. Definitely coming back.', author:'Marta L.', context:'Rock climbing, Aragonese Pyrenees' },
+      { text:'We did the circular route through the Picos de Europa with Nano. Three unforgettable days, great company and breathtaking views. A guide who knows his craft and truly loves the mountains.', author:'Javier S.', context:'Trekking Picos de Europa' },
       { text:'The multi-adventure week exceeded all expectations. Canyoning, climbing and trekking over five incredible days. The activity catalogue they sent us beforehand was perfect for choosing our combination.', author:'Lucía P.', context:'Multi-Adventure Week, Pyrenees' }
     ],
     faq: [
@@ -216,9 +216,9 @@ window.TRANSLATIONS = {
       { id:'grupos',          title:'Groepen & Bedrijven',          badge:'Groepen',      description:'Teambuilding, feesten of vriendenuittapjes. Gepersonaliseerde avontuurlijke ervaringen voor groepen tot 12 personen in unieke natuurgebieden.', duration:'Op maat', difficulty:'Aanpasbaar', season:'Het hele jaar' }
     ],
     testimonials: [
-      { text:'De afdaling van de Mascún was absoluut ongelooflijk. Abseilen, poelen en natuurlijke glijbanen — geweldig! Alejandro kent elke hoek van de canyon en maakt alles veilig én leuk.', author:'Carlos M.', context:'Mascún Canyon, Sierra de Guara' },
-      { text:'Eerste keer klimmen en Alejandro maakte het makkelijk en opwindend. Binnen een paar uur hing ik zonder angst aan de rotswand. De Pyreneeën zijn schitterend. Ik kom zeker terug!', author:'Marta L.', context:'Klimmen, Aragonese Pyreneeën' },
-      { text:'We deden de rondwandeling door de Picos de Europa met Alejandro. Drie onvergetelijke dagen, goed gezelschap en adembenemende uitzichten. Een gids met echte passie voor de bergen.', author:'Javier S.', context:'Trekking Picos de Europa' },
+      { text:'De afdaling van de Mascún was absoluut ongelooflijk. Abseilen, poelen en natuurlijke glijbanen — geweldig! Nano kent elke hoek van de canyon en maakt alles veilig én leuk.', author:'Carlos M.', context:'Mascún Canyon, Sierra de Guara' },
+      { text:'Eerste keer klimmen en Nano maakte het makkelijk en opwindend. Binnen een paar uur hing ik zonder angst aan de rotswand. De Pyreneeën zijn schitterend. Ik kom zeker terug!', author:'Marta L.', context:'Klimmen, Aragonese Pyreneeën' },
+      { text:'We deden de rondwandeling door de Picos de Europa met Nano. Drie onvergetelijke dagen, goed gezelschap en adembenemende uitzichten. Een gids met echte passie voor de bergen.', author:'Javier S.', context:'Trekking Picos de Europa' },
       { text:'De multiaventura week overtrof alle verwachtingen. Canyoning, klimmen en trekking in vijf ongelooflijke dagen. De catalogus die ze vooraf stuurden was perfect om onze combinatie te kiezen.', author:'Lucía P.', context:'Multiaventura Week, Pyreneeën' }
     ],
     faq: [
@@ -293,9 +293,9 @@ window.TRANSLATIONS = {
       { id:'grupos',          title:'Groupes & Entreprises',        badge:'Groupes',       description:'Team building, fêtes ou escapades entre amis. Expériences multi-aventure personnalisées pour des groupes jusqu\'à 12 personnes dans des cadres naturels uniques.', duration:'Sur mesure', difficulty:'Adaptable', season:'Toute l\'année' }
     ],
     testimonials: [
-      { text:'La descente du Mascún était absolument incroyable. Rappels, bassins et toboggans naturels époustouflants. Alejandro connaît chaque recoin du canyon et rend tout sûr et amusant à la fois.', author:'Carlos M.', context:'Canyon du Mascún, Sierra de Guara' },
-      { text:'Première fois en escalade et Alejandro a rendu ça facile et excitant. En quelques heures j\'étais sur la paroi sans peur. Le cadre des Pyrénées est spectaculaire. Je reviendrai c\'est certain.', author:'Marta L.', context:'Escalade dans les Pyrénées aragonaises' },
-      { text:'Nous avons fait le circuit des Picos de Europa avec Alejandro. Trois jours inoubliables, bonne compagnie et vues à couper le souffle. Un guide passionné qui sait parfaitement ce qu\'il fait.', author:'Javier S.', context:'Trekking Picos de Europa' },
+      { text:'La descente du Mascún était absolument incroyable. Rappels, bassins et toboggans naturels époustouflants. Nano connaît chaque recoin du canyon et rend tout sûr et amusant à la fois.', author:'Carlos M.', context:'Canyon du Mascún, Sierra de Guara' },
+      { text:'Première fois en escalade et Nano a rendu ça facile et excitant. En quelques heures j\'étais sur la paroi sans peur. Le cadre des Pyrénées est spectaculaire. Je reviendrai c\'est certain.', author:'Marta L.', context:'Escalade dans les Pyrénées aragonaises' },
+      { text:'Nous avons fait le circuit des Picos de Europa avec Nano. Trois jours inoubliables, bonne compagnie et vues à couper le souffle. Un guide passionné qui sait parfaitement ce qu\'il fait.', author:'Javier S.', context:'Trekking Picos de Europa' },
       { text:'La semaine multi-aventure a dépassé toutes mes attentes. Canyoning, escalade et trekking en cinq jours incroyables. Le catalogue d\'activités envoyé à l\'avance était parfait pour choisir notre combinaison.', author:'Lucía P.', context:'Semaine Multi-Aventure, Pyrénées' }
     ],
     faq: [
