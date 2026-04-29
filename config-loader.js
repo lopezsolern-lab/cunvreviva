@@ -3,7 +3,7 @@
   let config;
   try {
     // Try server API first, fallback to static config.json (for Netlify/GitHub Pages)
-    const res = await fetch('/api/config').catch(() => fetch('/config.json'));
+    const res = await fetch('config.json');
     if (!res.ok) throw new Error('no config');
     config = await res.json();
   } catch {
