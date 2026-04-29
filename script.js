@@ -277,6 +277,23 @@ document.addEventListener('keydown', e => {
 
 // Expose for config-loader (cards are built dynamically)
 window.__openPhotoModal = openPhotoModal;
+window.__openLightbox   = openLightbox;
+
+// ============================
+// GALLERY CAROUSEL
+// ============================
+(function () {
+  const gallery = document.getElementById('mainGallery');
+  if (!gallery) return;
+
+  const imgs = Array.from(gallery.querySelectorAll('.gallery__item img'));
+  const srcs = imgs.map(img => img.src);
+
+  imgs.forEach((img, i) => {
+    img.style.cursor = 'pointer';
+    img.addEventListener('click', () => openLightbox(srcs, i));
+  });
+})();
 
 // ============================
 // SMOOTH ANCHOR SCROLL
