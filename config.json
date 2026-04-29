@@ -168,7 +168,11 @@
       "season": "Todo el año",
       "price": null,
       "featured": false,
-      "photos": []
+      "photos": [
+        "/photos/grupos/IMG_6027.JPG",
+        "/photos/grupos/IMG_6028.JPG",
+        "/photos/grupos/IMG_6029.JPG"
+      ]
     }
   ],
   "testimonials": [
