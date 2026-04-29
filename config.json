@@ -1,0 +1,239 @@
+{
+  "business": {
+    "name": "Cumbre Viva",
+    "tagline": "La aventura\nte está\nesperando.",
+    "subtitle": "Barranquismo, escalada y trekking en los Pirineos y Sierra de Guara.\nSeguridad, pasión y naturaleza en estado puro.",
+    "eyebrow": "Guía de Aventura Certificado",
+    "email": "hola@cumbreviva.es",
+    "phone": "+34 600 000 000",
+    "instagram": "@cumbreviva",
+    "location": "Pirineos · Sierra de Guara · Picos de Europa",
+    "accentColor": "#f5a623"
+  },
+  "guide": {
+    "name": "Alejandro Roca",
+    "photo": "https://images.unsplash.com/photo-1542338347-4fff3276af78?w=700&q=80",
+    "bio1": "Llevo más de 10 años explorando barrancos, paredes de roca y senderos de montaña en los Pirineos, la Sierra de Guara y los Picos de Europa. El barranquismo, la escalada y el trekking no son solo mi trabajo — son mi forma de entender la naturaleza y de compartirla con quien se acerca a ella por primera vez.",
+    "bio2": "Guía certificado especializado en barranquismo técnico y deportivo, escalada en roca y senderismo de montaña. He guiado cientos de descensos en los barrancos más espectaculares de la Sierra de Guara — incluyendo el Mascún, Añisclo y Gorgol — y he recorrido los grandes senderos del Pirineo y los Picos de Europa con grupos de todos los niveles.",
+    "certifications": ["Técnico Deportivo Barranquismo", "Escalada RFEM", "Guía de Montaña", "Primeros Auxilios", "Rescate en Montaña", "Meteorología"]
+  },
+  "stats": [
+    { "value": 10, "suffix": "+", "label": "Años de experiencia" },
+    { "value": 1500, "suffix": "+", "label": "Clientes satisfechos" },
+    { "value": 150, "suffix": "+", "label": "Barrancos descubiertos" },
+    { "value": 300, "suffix": "+", "label": "Rutas completadas" }
+  ],
+  "services": [
+    {
+      "id": "senderismo",
+      "title": "Senderismo & Trekking",
+      "description": "Rutas por senderos de montaña con paisajes espectaculares. Desde los Picos de Europa hasta los valles pirenaicos. Adaptado a cada nivel, desde principiante hasta avanzado.",
+      "image": "https://images.unsplash.com/photo-1551632811-561732d1e306?w=600&q=80",
+      "badge": "Todos los niveles",
+      "badgeColor": "default",
+      "duration": "4–8 horas",
+      "difficulty": "Adaptable a tu nivel",
+      "season": "Todo el año",
+      "price": "75",
+      "featured": false,
+      "photos": [
+        "/photos/senderismo/IMG_4098.JPG",
+        "/photos/senderismo/IMG_8332.JPG",
+        "/photos/senderismo/IMG_4058.mov",
+        "/photos/senderismo/IMG_3827.mov"
+      ]
+    },
+    {
+      "id": "barranquismo",
+      "title": "Barranquismo",
+      "description": "Descenso de barrancos con rápeles, saltos, toboganes y pozas de agua cristalina. La adrenalina del agua en estado puro en los mejores barrancos del Pirineo.",
+      "image": "https://images.unsplash.com/photo-1506929562872-bb421503ef21?w=600&q=80",
+      "badge": "Más popular",
+      "badgeColor": "gold",
+      "duration": "1 día",
+      "difficulty": "Media",
+      "season": "Junio–Septiembre",
+      "price": "90",
+      "featured": true,
+      "photos": [
+        "/photos/barranquismo/IMG_1868.JPG",
+        "/photos/barranquismo/IMG_3791.JPG",
+        "/photos/barranquismo/IMG_3984.JPG",
+        "/photos/barranquismo/IMG_3672.mov"
+      ]
+    },
+    {
+      "id": "escalada",
+      "title": "Escalada en Roca",
+      "description": "Iniciación y perfeccionamiento en paredes naturales del Pirineo. Técnica, fuerza mental y pura adrenalina bajo supervisión experta. Adaptado desde principiante hasta avanzado.",
+      "image": "https://images.unsplash.com/photo-1522163182402-834f871fd851?w=600&q=80",
+      "badge": "Todos los niveles",
+      "badgeColor": "red",
+      "duration": "Medio día o día completo",
+      "difficulty": "Adaptable a tu nivel",
+      "season": "Primavera–Otoño",
+      "price": "120",
+      "featured": false,
+      "photos": [
+        "/photos/escalada/IMG_4564.JPG",
+        "/photos/escalada/IMG_5334.JPG",
+        "/photos/escalada/IMG_9056.JPG"
+      ]
+    },
+    {
+      "id": "viaferrata",
+      "title": "Vía Ferrata",
+      "description": "Sube paredes verticales equipadas con cables de acero, escalones y pasamanos. La emoción de la escalada con la seguridad de estar siempre asegurado. Sin experiencia previa necesaria.",
+      "image": "/photos/viaferrata/IMG_2587.JPG",
+      "badge": "Todos los niveles",
+      "badgeColor": "default",
+      "duration": "Medio día o día completo",
+      "difficulty": "Adaptable a tu nivel",
+      "season": "Primavera–Otoño",
+      "price": "65",
+      "featured": false,
+      "photos": [
+        "/photos/viaferrata/IMG_2587.JPG",
+        "/photos/viaferrata/IMG_2617.JPG",
+        "/photos/viaferrata/IMG_9891.JPG"
+      ]
+    },
+    {
+      "id": "raquetas",
+      "title": "Raquetas & Esquí de Travesía",
+      "description": "El silencio de la montaña nevada. Rutas con raquetas o esquí de montaña para vivir el invierno pirenaico en su máxima expresión.",
+      "image": "https://images.unsplash.com/photo-1516939884455-1445c8652f83?w=600&q=80",
+      "badge": "Invierno",
+      "badgeColor": "default",
+      "duration": "1–5 días",
+      "difficulty": "Baja–Alta",
+      "season": "Diciembre–Marzo",
+      "price": "150",
+      "featured": false,
+      "photos": [
+        "/photos/raquetas/IMG_1444.JPG",
+        "/photos/raquetas/IMG_1463.JPG",
+        "/photos/raquetas/IMG_1524.JPG"
+      ]
+    },
+    {
+      "id": "barranquismo-guara",
+      "title": "Semana de Barranquismo",
+      "description": "Semana completa en la Sierra de Guara y el Pirineo aragonés. Descenso del mítico barranco del Mascún, Añisclo, Gorgol y más. Alojamiento, guía y equipo incluidos.",
+      "image": "https://images.unsplash.com/photo-1469521669194-babb45599def?w=600&q=80",
+      "badge": "Sierra de Guara",
+      "badgeColor": "purple",
+      "duration": "5–7 días",
+      "difficulty": "Media–Alta",
+      "season": "Junio–Septiembre",
+      "price": null,
+      "featured": false,
+      "photos": [
+        "/photos/barranquismo-guara/IMG_3847.JPG",
+        "/photos/barranquismo-guara/IMG_6022.JPG",
+        "/photos/barranquismo-guara/IMG_6025.JPG",
+        "/photos/barranquismo-guara/IMG_6026.WEBP"
+      ]
+    },
+    {
+      "id": "multiaventura",
+      "title": "Semana Multiaventura",
+      "description": "Cinco días, cinco aventuras distintas. Un día descendemos un barranco con rápeles y pozas. Otro escalamos una pared de roca. Hacemos trekking por senderos de altura, bajamos un río en rafting y completamos una vía ferrata. Tú eliges la combinación — yo organizo todo.",
+      "image": "/collage-multiaventura.jpg",
+      "badge": "5 días · 5 actividades",
+      "badgeColor": "default",
+      "duration": "5 días",
+      "difficulty": "Adaptable",
+      "season": "Primavera–Otoño",
+      "price": null,
+      "featured": false,
+      "photos": [
+        "/photos/multiaventura/IMG_2587.JPG",
+        "/photos/multiaventura/IMG_4098.JPG",
+        "/photos/multiaventura/IMG_6020.JPG",
+        "/photos/multiaventura/IMG_6022.JPG",
+        "/photos/multiaventura/IMG_6023.JPG",
+        "/photos/multiaventura/IMG_6024.JPG"
+      ]
+    },
+    {
+      "id": "grupos",
+      "title": "Grupos & Empresas",
+      "description": "Team building, despedidas o escapadas con amigos. Experiencias multiaventura personalizadas para grupos de hasta 12 personas en entornos naturales únicos.",
+      "image": "https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?w=600&q=80",
+      "badge": "Grupos",
+      "badgeColor": "default",
+      "duration": "A medida",
+      "difficulty": "Adaptable",
+      "season": "Todo el año",
+      "price": null,
+      "featured": false,
+      "photos": []
+    }
+  ],
+  "testimonials": [
+    {
+      "text": "El descenso del Mascún fue absolutamente brutal. Rápeles, pozas y toboganes naturales alucinantes. Alejandro conoce cada rincón del barranco y hace que todo sea seguro y divertido a la vez.",
+      "author": "Carlos M.",
+      "context": "Barranco del Mascún, Sierra de Guara",
+      "avatar": "https://i.pravatar.cc/60?img=11"
+    },
+    {
+      "text": "Primera vez escalando en roca y Alejandro lo hizo fácil y emocionante. En pocas horas ya estaba en la pared sin miedo. El entorno del Pirineo es espectacular. Repito seguro.",
+      "author": "Marta L.",
+      "context": "Escalada en el Pirineo aragonés",
+      "avatar": "https://i.pravatar.cc/60?img=5"
+    },
+    {
+      "text": "Hicimos la ruta circular de los Picos de Europa con Alejandro. Tres días inolvidables, buena compañía y vistas que quitan el aliento. Un guía que sabe lo que hace y transmite pasión por la montaña.",
+      "author": "Javier S.",
+      "context": "Trekking Picos de Europa",
+      "avatar": "https://i.pravatar.cc/60?img=33"
+    },
+    {
+      "text": "La semana multiaventura superó todas mis expectativas. Barranquismo, escalada y trekking en cinco días increíbles. El catálogo de actividades que nos mandaron antes era perfecto para elegir.",
+      "author": "Lucía P.",
+      "context": "Semana Multiaventura, Pirineos",
+      "avatar": "https://i.pravatar.cc/60?img=45"
+    }
+  ],
+  "featureBanner": {
+    "title": "Tu seguridad es lo primero. Tu experiencia, lo que importa.",
+    "subtitle": "Cada salida está planificada con margen de error, equipamiento de primera clase y protocolos de emergencia. La montaña y el agua se respetan — y se disfrutan.",
+    "image": "https://images.unsplash.com/photo-1486911278844-a81c5267e227?w=1800&q=80"
+  },
+  "faq": [
+    {
+      "question": "¿Necesito experiencia previa para el barranquismo?",
+      "answer": "No. El barranquismo básico no requiere experiencia previa. Solo necesitas ganas de disfrutar y no tener vértigo extremo. Siempre adapto el nivel del barranco al grupo."
+    },
+    {
+      "question": "¿Qué equipo necesito llevar?",
+      "answer": "Todo el material técnico (neopreno, arnés, casco, cuerda, descensores) está incluido. Solo necesitas bañador, ropa cómoda para cambiar y ganas de mojarte."
+    },
+    {
+      "question": "¿Cuál es la política de cancelación?",
+      "answer": "Cancelación gratuita hasta 72 horas antes. Si las condiciones del agua o el tiempo no son seguras, la salida se reagenda sin coste. La naturaleza manda — siempre priorizamos la seguridad."
+    },
+    {
+      "question": "¿Cuántas personas hay en cada grupo?",
+      "answer": "Máximo 8 personas en barranquismo y trekking, y 4 en escalada. Esto garantiza atención personalizada y mayor seguridad. También hago salidas privadas para 1–3 personas."
+    },
+    {
+      "question": "¿Cómo funciona la semana multiaventura?",
+      "answer": "Al reservar te envío un catálogo con todas las actividades disponibles por día. Tú eliges la combinación que más te apetezca y yo organizo todo. El alojamiento puede incluirse o no según prefieras."
+    },
+    {
+      "question": "¿Hacéis actividades con niños?",
+      "answer": "Sí, tenemos barrancos y rutas especialmente adaptadas para familias con niños a partir de 6 años. El barranquismo familiar es una de las experiencias más especiales que guío."
+    },
+    {
+      "question": "¿En qué idiomas se realizan las actividades?",
+      "answer": "Las actividades se realizan en español e inglés. Si tu grupo es internacional, no hay problema — guío con fluidez en ambos idiomas para que todo el mundo disfrute al máximo de la experiencia."
+    }
+  ],
+  "gallery": {
+    "youtubeId": "PON_AQUI_TU_VIDEO_ID",
+    "youtubeTitle": "Barranquismo en Sierra de Guara"
+  }
+}
