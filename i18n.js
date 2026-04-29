@@ -33,6 +33,8 @@ window.TRANSLATIONS = {
       contactTitle:    '¿Listo para\ntu próxima\naventura?',
       contactSub:      'Cuéntame qué tienes en mente. Te respondo en menos de 24 horas con disponibilidad y una propuesta personalizada.',
       bannerEyebrow:   'Mi compromiso',
+      bannerTitle:     'Tu seguridad es lo primero. Tu experiencia, lo que importa.',
+      bannerSubtitle:  'Cada salida está planificada con margen de error, equipamiento de primera clase y protocolos de emergencia. La montaña y el agua se respetan — y se disfrutan.',
       bannerCta:       'Habla conmigo'
     },
     form: {
@@ -51,6 +53,7 @@ window.TRANSLATIONS = {
       legal:'Aviso legal', rights:'Todos los derechos reservados.'
     },
     certLabel: 'Guía Internacional',
+    certTitle: 'Técnico Deportivo',
     services: [
       { id:'senderismo',      title:'Senderismo & Trekking',     badge:'Todos los niveles', description:'Rutas por senderos de montaña con paisajes espectaculares. Desde los Picos de Europa hasta los valles pirenaicos. Adaptado a cada nivel, desde principiante hasta avanzado.', duration:'4–8 horas', difficulty:'Adaptable a tu nivel', season:'Todo el año' },
       { id:'barranquismo',    title:'Barranquismo',              badge:'Más popular',  description:'Descenso de barrancos con rápeles, saltos, toboganes y pozas de agua cristalina. La adrenalina del agua en estado puro en los mejores barrancos del Pirineo.', duration:'1 día', difficulty:'Media', season:'Junio–Septiembre' },
@@ -110,6 +113,8 @@ window.TRANSLATIONS = {
       contactTitle:    'Ready for\nyour next\nadventure?',
       contactSub:      'Tell me what you have in mind. I\'ll reply within 24 hours with availability and a personalised proposal.',
       bannerEyebrow:   'My commitment',
+      bannerTitle:     'Your safety comes first. Your experience, what matters.',
+      bannerSubtitle:  'Every outing is planned with safety margins, top-class equipment and emergency protocols. The mountain and the water deserve respect — and enjoyment.',
       bannerCta:       'Talk to me'
     },
     form: {
@@ -128,6 +133,7 @@ window.TRANSLATIONS = {
       legal:'Legal notice', rights:'All rights reserved.'
     },
     certLabel: 'International Guide',
+    certTitle: 'Sports Technician',
     services: [
       { id:'senderismo',      title:'Hiking & Trekking',          badge:'All levels',    description:'Mountain trails with spectacular scenery. From the Picos de Europa to the Pyrenean valleys. Adapted to every level, from beginner to advanced.', duration:'4–8 hours', difficulty:'Adapted to your level', season:'Year-round' },
       { id:'barranquismo',    title:'Canyoning',                  badge:'Most popular',  description:'Canyon descents with abseils, jumps, natural slides and crystal-clear pools. Pure water adrenaline in the best canyons of the Pyrenees.', duration:'1 day', difficulty:'Medium', season:'June–September' },
@@ -187,6 +193,8 @@ window.TRANSLATIONS = {
       contactTitle:    'Klaar voor\njouw volgende\navontuur?',
       contactSub:      'Vertel me wat je in gedachten hebt. Ik reageer binnen 24 uur met beschikbaarheid en een persoonlijk voorstel.',
       bannerEyebrow:   'Mijn belofte',
+      bannerTitle:     'Jouw veiligheid staat voorop. Jouw ervaring, wat telt.',
+      bannerSubtitle:  'Elke tocht wordt gepland met veiligheidsmarge, topuitrusting en noodprotocollen. De berg en het water verdienen respect — en plezier.',
       bannerCta:       'Praat met mij'
     },
     form: {
@@ -205,6 +213,7 @@ window.TRANSLATIONS = {
       legal:'Juridische mededeling', rights:'Alle rechten voorbehouden.'
     },
     certLabel: 'Internationale Gids',
+    certTitle: 'Sport Technicus',
     services: [
       { id:'senderismo',      title:'Wandelen & Trekking',          badge:'Alle niveaus',  description:'Bergpaden met spectaculaire landschappen. Van de Picos de Europa tot de Pyrenese valleien. Aangepast aan elk niveau, van beginner tot gevorderd.', duration:'4–8 uur', difficulty:'Aangepast aan jouw niveau', season:'Het hele jaar' },
       { id:'barranquismo',    title:'Canyoning',                    badge:'Meest populair', description:'Afdaling door canyons met abseilen, springen, natuurlijke glijbanen en kristalheldere poelen. Pure wateradrenaline in de mooiste canyons van de Pyreneeën.', duration:'1 dag', difficulty:'Gemiddeld', season:'Juni–September' },
@@ -264,6 +273,8 @@ window.TRANSLATIONS = {
       contactTitle:    'Prêt pour\nvotre prochaine\naventure ?',
       contactSub:      'Dites-moi ce que vous avez en tête. Je vous réponds en moins de 24 heures avec les disponibilités et une proposition personnalisée.',
       bannerEyebrow:   'Mon engagement',
+      bannerTitle:     'Votre sécurité avant tout. Votre expérience, ce qui compte.',
+      bannerSubtitle:  'Chaque sortie est planifiée avec des marges de sécurité, un équipement de première classe et des protocoles d\'urgence. La montagne et l\'eau méritent le respect — et le plaisir.',
       bannerCta:       'Parlez-moi'
     },
     form: {
@@ -282,6 +293,7 @@ window.TRANSLATIONS = {
       legal:'Mentions légales', rights:'Tous droits réservés.'
     },
     certLabel: 'Guide International',
+    certTitle: 'Technicien Sportif',
     services: [
       { id:'senderismo',      title:'Randonnée & Trekking',         badge:'Tous niveaux',  description:'Sentiers de montagne avec des paysages spectaculaires. Des Picos de Europa aux vallées pyrénéennes. Adapté à chaque niveau, du débutant à l\'avancé.', duration:'4–8 heures', difficulty:'Adapté à votre niveau', season:'Toute l\'année' },
       { id:'barranquismo',    title:'Canyoning',                    badge:'Le plus populaire', description:'Descente de canyons avec rappels, sauts, toboggans naturels et bassins d\'eau cristalline. L\'adrénaline de l\'eau à l\'état pur dans les meilleurs canyons des Pyrénées.', duration:'1 jour', difficulty:'Moyen', season:'Juin–Septembre' },

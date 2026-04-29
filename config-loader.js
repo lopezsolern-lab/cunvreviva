@@ -162,11 +162,7 @@
       });
     }
 
-    // ── Feature banner ───────────────────────────────────────────────────
-    var bannerTitle = document.querySelector('[data-field="banner.title"]');
-    if (bannerTitle) bannerTitle.textContent = config.featureBanner.title;
-    var bannerSub = document.querySelector('[data-field="banner.subtitle"]');
-    if (bannerSub) bannerSub.textContent = config.featureBanner.subtitle;
+    // ── Feature banner (handled by data-i18n) ───────────────────────────
 
     // ── About ────────────────────────────────────────────────────────────
     document.querySelectorAll('[data-field="guide.name"]').forEach(function(el) {
