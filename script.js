@@ -280,19 +280,127 @@ window.__openPhotoModal = openPhotoModal;
 window.__openLightbox   = openLightbox;
 
 // ============================
-// GALLERY CAROUSEL
+// GALLERY CAROUSEL 3D
 // ============================
 (function () {
-  const gallery = document.getElementById('mainGallery');
-  if (!gallery) return;
+  const track    = document.getElementById('carouselTrack');
+  const dotsEl   = document.getElementById('carouselDots');
+  const btnPrev  = document.getElementById('carouselPrev');
+  const btnNext  = document.getElementById('carouselNext');
+  if (!track) return;
 
-  const imgs = Array.from(gallery.querySelectorAll('.gallery__item img'));
-  const srcs = imgs.map(img => img.src);
+  const photos = [
+    '/photos/barranquismo-guara/IMG_6022.JPG',
+    '/photos/barranquismo-guara/IMG_6025.JPG',
+    '/photos/barranquismo/IMG_3984.JPG',
+    '/photos/escalada/IMG_5334.JPG',
+    '/photos/escalada/IMG_4564.JPG',
+    '/photos/grupos/IMG_6027.JPG',
+    '/photos/viaferrata/IMG_9891.JPG',
+    '/photos/barranquismo-guara/IMG_3847.JPG',
+    '/photos/escalada/IMG_9056.JPG',
+    '/photos/senderismo/IMG_4098.JPG',
+    '/photos/raquetas/IMG_1444.JPG',
+    '/photos/raquetas/IMG_1463.JPG',
+  ];
 
-  imgs.forEach((img, i) => {
-    img.style.cursor = 'pointer';
-    img.addEventListener('click', () => openLightbox(srcs, i));
+  const alts = [
+    'Barranquismo Sierra de Guara','Barranco del Mascún',
+    'Cascada barranquismo','Escalada en roca',
+    'Escalada pared','Trekking en grupo',
+    'Vía Ferrata','Rápel en cañón',
+    'Escalada técnica','Senderismo montaña',
+    'Raquetas de nieve','Nieve y cielo azul',
+  ];
+
+  let current = 0;
+  const total  = photos.length;
+
+  // Build items
+  photos.forEach((src, i) => {
+    const item = document.createElement('div');
+    item.className = 'gallery-carousel__item';
+    const img = document.createElement('img');
+    img.src = src; img.alt = alts[i]; img.loading = 'lazy';
+    item.appendChild(img);
+    track.appendChild(item);
   });
+
+  // Build dots
+  photos.forEach((_, i) => {
+    const dot = document.createElement('button');
+    dot.className = 'carousel-dot';
+    dot.setAttribute('aria-label', `Foto ${i + 1}`);
+    dot.addEventListener('click', () => goTo(i));
+    dotsEl.appendChild(dot);
+  });
+
+  function getPos(i) {
+    let pos = ((i - current) % total + total) % total;
+    if (pos > total / 2) pos -= total;
+    return pos;
+  }
+
+  function update() {
+    const items = Array.from(track.children);
+    items.forEach((item, i) => {
+      const pos = getPos(i);
+      item.className = 'gallery-carousel__item';
+      if      (pos ===  0) item.classList.add('is-active');
+      else if (pos === -1) item.classList.add('is-prev');
+      else if (pos ===  1) item.classList.add('is-next');
+      else if (pos === -2) item.classList.add('is-far-prev');
+      else if (pos ===  2) item.classList.add('is-far-next');
+      else                 item.classList.add('is-hidden');
+    });
+    Array.from(dotsEl.children).forEach((d, i) =>
+      d.classList.toggle('active', i === current));
+  }
+
+  function goTo(i) {
+    current = ((i % total) + total) % total;
+    update();
+  }
+  function prev() { goTo(current - 1); }
+  function next() { goTo(current + 1); }
+
+  btnPrev.addEventListener('click', prev);
+  btnNext.addEventListener('click', next);
+
+  // Click: sides navigate, center opens lightbox
+  track.addEventListener('click', e => {
+    const item = e.target.closest('.gallery-carousel__item');
+    if (!item) return;
+    if (item.classList.contains('is-active')) {
+      openLightbox(photos, current);
+    } else if (item.classList.contains('is-prev') || item.classList.contains('is-far-prev')) {
+      prev();
+    } else if (item.classList.contains('is-next') || item.classList.contains('is-far-next')) {
+      next();
+    }
+  });
+
+  // Touch swipe
+  let touchX = 0;
+  track.addEventListener('touchstart', e => { touchX = e.touches[0].clientX; }, { passive: true });
+  track.addEventListener('touchend',   e => {
+    const diff = touchX - e.changedTouches[0].clientX;
+    if (Math.abs(diff) > 50) diff > 0 ? next() : prev();
+  });
+
+  // Keyboard (solo si lightbox cerrado)
+  document.addEventListener('keydown', e => {
+    if (photoLightbox.classList.contains('open')) return;
+    if (e.key === 'ArrowLeft')  prev();
+    if (e.key === 'ArrowRight') next();
+  });
+
+  // Auto-avance pausado al hacer hover
+  let timer = setInterval(next, 4500);
+  track.addEventListener('mouseenter', () => clearInterval(timer));
+  track.addEventListener('mouseleave', () => { timer = setInterval(next, 4500); });
+
+  update();
 })();
 
 // ============================
