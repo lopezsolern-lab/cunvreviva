@@ -1,14 +1,7 @@
 // Loads config + applies i18n translations, re-runs on language change
-(async function () {
-  let config;
-  try {
-    // Try server API first, fallback to static config.json (for Netlify/GitHub Pages)
-    const res = await fetch('config.json');
-    if (!res.ok) throw new Error('no config');
-    config = await res.json();
-  } catch {
-    return;
-  }
+(function () {
+  const config = window.SITE_CONFIG;
+  if (!config) { console.error('SITE_CONFIG not found'); return; }
 
   function render(lang) {
     const tr = window.TRANSLATIONS?.[lang] || window.TRANSLATIONS?.es || {};
